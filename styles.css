@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url(Oswald-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'haleway';
+    src: url(Raleway-Regular.ttf);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: #fc9823;
+}
+
+#cabecalho {
+    display: flex;
+    padding-top: 60px;
+    height: 80px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(0, 7, 105);
+    width: 100%;
+}
+
+#logo { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size:  22px;
+    color: white;
+    font-family: 'Oswald';
+    float: left;
+}
+
+#menu {
+    padding-right: 60px;
+    font-size: 14px;
+    font-family: 'haleway';
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+  
+li {
+    display: inline;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 6% 88% 6%;
+    grid-template-rows: 700px;
+}
+
+.g1 {
+    padding-top: 200px;
+    padding-bottom: 600px;
+    background-image: url(aquario.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+button {
+    background: #fc9823;
+    color: rgb(0, 7, 105);
+    width: 144px;
+    height: 45px;
+    border: none;
+    font-family: 'haleway';
+    font-size: 14px;
+}
+
+.grid-container {
+    padding-top: 200px;
+    display: grid;
+    grid-template-columns: 6% 28% 2% 28% 2% 28% 6%;
+    grid-template-rows: 520px;
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 28px;
+    color: white;
+}
+
+.grid1 {
+    padding-top: 60%;
+    background-image: url(peixebeta.webp);
+    background-position: center;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.grid2 {
+    padding-top: 60%;
+    background-image: url(bolas.webp);
+    background-position: center;
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.grid3 {
+    padding-top: 60%;
+    background-image: url(peixelistrado.webp);
+    background-position: center;
+    grid-column: 6;
+    grid-row: 1;
+}
+
+#rodape {
+    height: 160px;
+    background-color: rgb(0, 7, 105);
+    width: 100%;
+}
+
+.grid-container3 {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 17% 17% 8% 17% 8% 17% 16%;
+    grid-template-rows: 160px; 
+    text-align: center;
+    font-family: 'haleway';
+    font-size: 15px;
+    line-height: 1.88em;
+    color: white;
+}
+
+.gr1 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.gr2 {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.gr3 {
+    grid-column: 6;
+    grid-row: 1;
+}
